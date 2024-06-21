@@ -52,7 +52,7 @@ export default function EmailBox() {
         ref={senderNameRef}
         data-cursor-focusable="true"
         className="border border-v9-light-grey custom-scroll-bar-x border-opacity-50 bg-v9-primary-black p-4 rounded flex-1 focus:border-v9-yellow active:border-v9-yellow outline-none"
-        placeholder="xyz@v9.com"
+        placeholder="Your Email !"
       ></input>
       <textarea
         id="contact-form"
@@ -60,7 +60,7 @@ export default function EmailBox() {
         ref={subjectRef}
         className="border border-v9-light-grey custom-scroll-bar-x border-opacity-50 bg-v9-primary-black p-4 rounded flex-1 focus:border-v9-yellow active:border-v9-yellow outline-none"
         rows={5}
-        placeholder="Hey Ahmed, We need to talk!"
+        placeholder="Your message !"
       ></textarea>
       <Button disabled={loading} onClick={sendEmail}>
         Send me an email!
