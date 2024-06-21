@@ -46,7 +46,6 @@ export default function MetaTags() {
       <meta name="viewport" content="width=device-width, initial-scale=1" />
 
       <meta property="og:type" content="website" />
-      {/* <meta property="og:url" content="https://vivek9patel.com/" /> */}
       <meta property="og:title" content="Ahmed Abdelsalam" />
       <meta
         property="og:description"

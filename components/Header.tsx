@@ -150,19 +150,7 @@ const Header = ({ currentLink = "", loading = false }) => {
                 Resume
               </a>
             </Link>
-            {/* <div
-              onClick={() => {
-                ReactGA.send({
-                  hitType: "pageview",
-                  page: "meet.vivek9patel.com",
-                  title: "V9 Meet",
-                });
-                window.open("https://meet.vivek9patel.com/");
-              }}
-              className={`mx-4 w-full sm:w-auto  mb-2 sm:m-0 hover:underline-offset-2 hover:text-white`}
-            >
-              <a className=" whitespace-nowrap">Let's chat</a>
-            </div> */}
+           
             <div
               onClick={() => {
                 ReactGA.event({

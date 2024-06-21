@@ -52,21 +52,9 @@ const Home: NextPage = () => {
           </div>
 
 
-          {/* <div className="mt-4 flex items-center">
-            <a className="no-underline" href="https://github.com/vivek9patel" target="_blank">
-              <img alt="GitHub followers" src="https://img.shields.io/github/followers/vivek9patel" />
-            </a>
-            <a className="no-underline ml-4" href="https://github.com/vivek9patel?tab=repositories&q=&type=&language=&sort=stargazers" target="_blank">
-              <img alt="GitHub User's stars" src="https://img.shields.io/github/stars/vivek9patel" />
-            </a>
-          </div> */}
-
-          {/* <div className="text-lg md:text-xl text-v9-light-grey font-light mt-4 ">
-            Bringing your vision to life, one pixel at a time. 🎨
-          </div> */}
           <div className=" text-v9-light-grey font-light space-y-1 mt-8">
             <p className="">
-              I'm a developer based in{" "}
+            As a Cloud DevOps Engineer based in {" "}
               <Anchor
                 href="https://www.google.com/maps/place/Cairo,+Cairo+Governorate/@30.0594885,31.2584644,13z"
                 target={"_blank"}
@@ -77,10 +65,9 @@ const Home: NextPage = () => {
                   });
                 }}
               >
-                Cairo, Egypt
+                Cairo, Egypt, 
               </Anchor>
-              , with 2 years of experience working with various software applications, and teams from US and India. I
-              specialize in building
+              
               {" "}
               {/* <Anchor
                 href="github.com/ahmed-"
@@ -94,13 +81,11 @@ const Home: NextPage = () => {
               >
                 exceptional softwares
               </Anchor> */}
-              , applications, backend services and everything in between.
+             I specialize in automation and cloud infrastructure using tools like Kubernetes, AWS, and Terraform. With a Computer Engineering degree from Cairo University and extensive hands-on experience, I excel in optimizing cloud solutions and automating deployments.
             </p>
           </div>
         </div>
-        {/* <div>
-          <img src="/images/vivek9patel.png" className="w-80" />
-        </div> */}
+     
       </div>
 
       {/* Experience Section */}
@@ -116,16 +101,19 @@ const Home: NextPage = () => {
           </Button>
         </div>
         <div className="text-v9-light-grey font-light mt-2 mb-4 ">
-          For over 3 years, I have cultivated a deep understanding and expertise
-          in <span className="">Front-end Engineering</span>, always
-          prioritizing the user's needs. In every project I undertake, my aim is
-          to craft tailored, intuitive, and thoroughly tested experiences that
-          align the goals of companies with the expectations of users.
+        Working with various companies has exposed me to diverse DevOps methodologies, 
+        allowing me to approach challenges from multiple perspectives. I believe that the optimal solution is
+         not always the most obvious one; effective customization, based on a deep understanding of DevOps principles,
+         is essential. This adaptability and knowledge enable me to deliver innovative solutions that meet complex operational needs.
+
         </div>
+
+
+
         <Hr width="100%" />
         <div className="flex justify-between flex-col lg:flex-row">
           <div className=" text-4xl xl:text-5xl mb-6 lg:mb-0 flex items-center justify-center Arialic_Hollow text-v9-light-grey font-light">
-            Jun '24 - Present
+            April '24 - Present
           </div>
           <div className="flex justify-center">
             <img
@@ -135,10 +123,10 @@ const Home: NextPage = () => {
             ></img>
             <div className="flex flex-col justify-between sm:w-[500px]">
               <div className=" text-v9-light-grey font-light">
-                Full Time - Present
+                Full Time - Remote
               </div>
               <div className="text-lg sm:text-xl">
-                Engineer II at{" "}
+                DevOps Engineer at{" "}
                 <Anchor
                   onClick={() => {
                     ReactGA.event({
@@ -146,9 +134,9 @@ const Home: NextPage = () => {
                       action: "UOPX Link",
                     });
                   }}
-                  href="https://www.google.com/search?q=university+of+phoenix"
+                  href="https://www.linkedin.com/company/abi-technology/"
                 >
-                  University of Phoenix
+                  ABI Technology
                 </Anchor>
               </div>
               <div className="text-light text-v9-light-grey mt-2">
@@ -160,10 +148,15 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
+
+
+
+
+
         <Hr width="100%" />
         <div className="flex justify-between flex-col lg:flex-row">
           <div className=" text-4xl xl:text-5xl mb-6 lg:mb-0 flex items-center justify-center Arialic_Hollow text-v9-light-grey font-light">
-            May '23 - Apr '24
+            Jun '23 - Sept. '23
           </div>
           <div className="flex justify-center">
             <img
@@ -173,10 +166,10 @@ const Home: NextPage = () => {
             ></img>
             <div className="flex flex-col justify-between sm:w-[500px]">
               <div className=" text-v9-light-grey font-light">
-                Internship - 1 year
+                Full Time - Zamalek, Cairo
               </div>
               <div className="text-lg sm:text-xl">
-                Software Engineer at{" "}
+                DevOps Engineering Intern at{" "}
                 <Anchor
                   onClick={() => {
                     ReactGA.event({
@@ -184,146 +177,22 @@ const Home: NextPage = () => {
                       action: "UOPX Link",
                     });
                   }}
-                  href="https://www.google.com/search?q=university+of+phoenix"
+                  href="https://www.q84sale.com/en/"
                 >
-                  University of Phoenix
+                  4Sale International Co.
                 </Anchor>
               </div>
               <div className="text-light text-v9-light-grey mt-2">
-                I develop robust, responsive components with a focus on
+                {/* I develop robust, responsive components with a focus on
                 accessibility, enhancing user experiences alongside Adobe AEM,
                 Adobe ADA, and Adobe Target. <br></br>
-                Worked on building new microservice with Spring Boot, Java, Elasticsearch, Docker, Terraform and AWS.
+                Worked on building new microservice with Spring Boot, Java, Elasticsearch, Docker, Terraform and AWS. */}
               </div>
             </div>
           </div>
         </div>
-        <Hr width="100%" />
-        <div className="flex justify-between  flex-col lg:flex-row">
-          <div className="text-4xl xl:text-5xl  mb-6 lg:mb-0  flex items-center justify-center Arialic_Hollow text-v9-light-grey font-light">
-            Jan '22 - Jun '22
-          </div>
-          <div className="flex justify-center">
-            <img
-              src={hackerrankLogo.src}
-              alt="Hackerrank Logo"
-              className="h-14 mr-2 mt-1 hidden sm:block"
-            ></img>
-            <div className="flex flex-col justify-between sm:w-[500px]">
-              <div className=" text-v9-light-grey font-light">
-                Internship - 6 months
-              </div>
-              <div className="text-lg sm:text-xl">
-                Software Engineer at{" "}
-                <Anchor
-                  onClick={() => {
-                    ReactGA.event({
-                      category: "Link.Click",
-                      action: "Hackerrank Link",
-                    });
-                  }}
-                  href="https://www.google.com/search?q=hackerrank"
-                >
-                  HackerRank
-                </Anchor>
-              </div>
-              <div className="text-light text-v9-light-grey mt-2">
-                I contributed to the optimization of a cloud-based Integrated
-                Development Environment (IDE), elevating efficiency. I worked on
-                theia, React.js, Typescript, Docker, and Kubernetes.
-              </div>
-            </div>
-          </div>
-        </div>
-        <Hr width="100%" />
-        <div className="flex justify-between  flex-col lg:flex-row">
-          <div className="text-4xl xl:text-5xl  mb-6 lg:mb-0   flex items-center justify-center Arialic_Hollow text-v9-light-grey font-light">
-            Apr '21 - Jun '21
-          </div>
-          <div className="flex justify-center">
-            <img
-              src={hmsLogo.src}
-              alt="100ms Logo"
-              className="h-10 mr-4 mt-1 hidden sm:block"
-            ></img>
-            <div className="flex flex-col justify-between sm:w-[500px]">
-              <div className=" text-v9-light-grey font-light">
-                Internship - 3 months
-              </div>
-              <div className="text-lg sm:text-xl">
-                Software Engineer at{" "}
-                <Anchor
-                  onClick={() => {
-                    ReactGA.event({
-                      category: "Link.Click",
-                      action: "100ms Link",
-                    });
-                  }}
-                  href="https://www.google.com/search?q=100ms"
-                >
-                  100ms
-                </Anchor>
-              </div>
-              <div className="text-light text-v9-light-grey mt-2">
-                I worked with fontend Dashboard team, building a customised
-                video-conferencing app-builder using Next.js, Typescript,
-                Tailwind CSS, Vercel and AWS.
-              </div>
-            </div>
-          </div>
-        </div>
-        <Hr width="100%" />
-        <div className="flex justify-between  flex-col lg:flex-row">
-          <div className="text-4xl xl:text-5xl  mb-6 lg:mb-0   flex items-center justify-center Arialic_Hollow text-v9-light-grey font-light">
-            Jun '20 - Mar '21
-          </div>
-          <div className="flex justify-center">
-            <img
-              src={webmateLogo.src}
-              alt="Webmate's Logo"
-              className="h-10 mr-4 mt-1 hidden sm:block"
-            ></img>
-            <div className="flex flex-col justify-between sm:w-[500px]">
-              <div className=" text-v9-light-grey font-light">
-                Part-time - 9 months
-              </div>
-              <div className="text-lg sm:text-xl">
-                Co-founder at{" "}
-                <Anchor
-                  onClick={() => {
-                    ReactGA.event({
-                      category: "Link.Click",
-                      action: "Webmate Link",
-                    });
-                  }}
-                  href="https://thewebmate.in/"
-                >
-                  Webmate Web Services
-                </Anchor>
-              </div>
-              <div className="text-light text-v9-light-grey mt-2">
-                Led the establishment of an affordable software services
-                platform for small businesses during the pandemic, driving
-                client meeting management and exceptional customer satisfaction.
-              </div>
-            </div>
-          </div>
-        </div>
-        <Hr width="100%" />
-        <div
-          onClick={() => {
-            ReactGA.event({
-              category: "Link.Click",
-              action: "Recommendations Link",
-            });
-            window.open("https://www.linkedin.com/in/vivek9patel/", "_blank");
-          }}
-          className=" text-v9-light-grey underline hover:text-white"
-        >
-          See my recommendations on LinkedIn
-          {" ->"}
-        </div>
-      </div>
+
+</div>
 
       {/* Projects Section */}
       <div className="mt-20 sm:mt-32">
@@ -357,9 +226,9 @@ const Home: NextPage = () => {
                 action: "MailTo Link",
               });
             }}
-            href="mailto:vivek.p9737@gmail.com"
+            href="mailto:ahmed.abdelsalam.sa@gmail.com"
           >
-            vivek.p9737@gmail.com
+            ahmed.abdelsalam.sa@gmail.com
           </Anchor>
           !
         </div>
