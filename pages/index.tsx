@@ -41,23 +41,26 @@ const Home: NextPage = () => {
       <div className="mt-10 sm:mt-20 flex">
         <div className="">
           <div className="text-4xl md:text-5xl font-medium">
-            <div className="">Hey, I'm Vivek Patel</div>
+            <div className="">Hey, I'm Ahmed Abdelsalam</div>
             <div className=" mt-4">
               <span className="hidden sm:inline-block mr-4">I'm a </span>
               <span className=" text-v9-yellow whitespace-nowrap">
-                Software Engineer
+               Cloud-DevOps Engineer
               </span>
               .
             </div>
           </div>
-          <div className="mt-4 flex items-center">
+
+
+          {/* <div className="mt-4 flex items-center">
             <a className="no-underline" href="https://github.com/vivek9patel" target="_blank">
               <img alt="GitHub followers" src="https://img.shields.io/github/followers/vivek9patel" />
             </a>
             <a className="no-underline ml-4" href="https://github.com/vivek9patel?tab=repositories&q=&type=&language=&sort=stargazers" target="_blank">
               <img alt="GitHub User's stars" src="https://img.shields.io/github/stars/vivek9patel" />
             </a>
-          </div>
+          </div> */}
+
           {/* <div className="text-lg md:text-xl text-v9-light-grey font-light mt-4 ">
             Bringing your vision to life, one pixel at a time. 🎨
           </div> */}
@@ -65,7 +68,7 @@ const Home: NextPage = () => {
             <p className="">
               I'm a developer based in{" "}
               <Anchor
-                href="https://www.google.com/maps/place/Phoenix,+AZ,+USA/@33.6055497,-112.4547016,10z"
+                href="https://www.google.com/maps/place/Cairo,+Cairo+Governorate/@30.0594885,31.2584644,13z"
                 target={"_blank"}
                 onClick={() => {
                   ReactGA.event({
@@ -74,12 +77,13 @@ const Home: NextPage = () => {
                   });
                 }}
               >
-                Phoenix, AZ
+                Cairo, Egypt
               </Anchor>
               , with 2 years of experience working with various software applications, and teams from US and India. I
-              specialize in building{" "}
-              <Anchor
-                href="https://vivek9patel.github.io/"
+              specialize in building
+              {" "}
+              {/* <Anchor
+                href="github.com/ahmed-"
                 onClick={() => {
                   ReactGA.event({
                     category: "Link.Click",
@@ -89,7 +93,7 @@ const Home: NextPage = () => {
                 target={"_blank"}
               >
                 exceptional softwares
-              </Anchor>
+              </Anchor> */}
               , applications, backend services and everything in between.
             </p>
           </div>
