@@ -232,7 +232,7 @@ const Home: NextPage = () => {
           </Anchor>
           !
         </div>
-        <EmailBox />
+        {/* <EmailBox /> */}
       </div>
     </div>
   );
