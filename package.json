@@ -4,8 +4,12 @@
   "scripts": {
     "dev": "NODE_OPTIONS='--inspect' next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "next build && next export && touch out/.nojekyll && gh-pages -d out",
+    "start": "next start -p $PORT",
+    "heroku-postbuild": "npm run build"
+
+
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
