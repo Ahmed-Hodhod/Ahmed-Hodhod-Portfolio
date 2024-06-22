@@ -8,6 +8,9 @@ import { fetchProjectsStar } from "../helpers/helpers";
 import { useRouter } from "next/router";
 
 import uopxLogo from "../images/uopx-phoenixbird-red.png";
+import abiLogo from "../images/abi.png"; 
+import forSaleLogo from "../images/4sale.png"; 
+
 import hackerrankLogo from "../images/HackerRank_logo.png";
 import hmsLogo from "../images/100ms_logo.png";
 import webmateLogo from "../images/webmate_logo.png";
@@ -117,8 +120,8 @@ const Home: NextPage = () => {
           </div>
           <div className="flex justify-center">
             <img
-              src={uopxLogo.src}
-              alt="University of Phoenix Logo"
+              src={abiLogo.src}
+              alt="Abi Technology Logo"
               className="h-12 mr-4 mt-1 hidden sm:block"
             ></img>
             <div className="flex flex-col justify-between sm:w-[500px]">
@@ -160,8 +163,8 @@ const Home: NextPage = () => {
           </div>
           <div className="flex justify-center">
             <img
-              src={uopxLogo.src}
-              alt="University of Phoenix Logo"
+              src={forSaleLogo.src}
+              alt="4Sale Logo"
               className="h-12 mr-4 mt-1 hidden sm:block"
             ></img>
             <div className="flex flex-col justify-between sm:w-[500px]">
