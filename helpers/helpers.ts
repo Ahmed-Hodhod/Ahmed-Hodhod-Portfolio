@@ -64,7 +64,6 @@ export const badgeImage:
   "chrome extension": "https://img.shields.io/badge/Chrome_Extensions-%23F1502F.svg?style=flat-square&logo=google-chrome&logoColor=white",
   flutter: "https://img.shields.io/badge/Flutter-%2302569B.svg?style=flat-square&logo=Flutter&logoColor=white",
   dart: "https://img.shields.io/badge/Dart-%230175C2.svg?style=flat-square&logo=dart&logoColor=white",
-  "firebase authentication": "https://img.shields.io/badge/firebase_auth-%23039BE5.svg?style=flat-square&logo=firebase&logoColor=white",
   firestore: "https://img.shields.io/badge/Cloud_Firestore-%234FC3F7.svg?style=flat-square&logo=firebase&logoColor=white",
   "react native": "https://img.shields.io/badge/React_Native-%2320232a.svg?style=flat-square&logo=react&logoColor=%2361DAFB",
   expo: "https://img.shields.io/badge/Expo-%23000020.svg?style=flat-square&logo=expo&logoColor=white",
