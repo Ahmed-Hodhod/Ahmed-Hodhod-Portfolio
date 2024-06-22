@@ -38,7 +38,7 @@ export default function MetaTags() {
       <meta name="author" content="Ahmed Abdelsalam (Ahmed-hodhod)" />
       <meta
         name="keywords"
-        content=""
+        content="ahmed hodhod, Ahmed Hodhod Github, DevOps Engineer, Junior Software Engineer, Ahmed Abdelsalam, Ahmed Abdelsalam DevOps, هدهد , احمد هدهد "
       />
       <meta name="robots" content="index, follow" />
       <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
