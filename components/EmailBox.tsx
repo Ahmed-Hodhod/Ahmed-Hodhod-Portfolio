@@ -22,7 +22,7 @@ export default function EmailBox() {
     const senderName = senderNameRef.current?.value;
     setLoading(true);
     const templateParams = {
-      from_name: "Connected as ahmed.abdelsalam.sa@gmail.com",
+      from_name: "ahmed-hodhod-github-io.vercel.app",
       to_name: "Ahmed Abdelsalam",
       subject: `${senderName ? senderName : "personal-site"}`,
       message,
@@ -52,7 +52,7 @@ export default function EmailBox() {
         ref={senderNameRef}
         data-cursor-focusable="true"
         className="border border-v9-light-grey custom-scroll-bar-x border-opacity-50 bg-v9-primary-black p-4 rounded flex-1 focus:border-v9-yellow active:border-v9-yellow outline-none"
-        placeholder="Your Email !"
+        placeholder="yourEmail@domain.com"
       ></input>
       <textarea
         id="contact-form"
@@ -60,7 +60,7 @@ export default function EmailBox() {
         ref={subjectRef}
         className="border border-v9-light-grey custom-scroll-bar-x border-opacity-50 bg-v9-primary-black p-4 rounded flex-1 focus:border-v9-yellow active:border-v9-yellow outline-none"
         rows={5}
-        placeholder="Your message !"
+        placeholder="Hey Ahmed, This is an awesome website!"
       ></textarea>
       <Button disabled={loading} onClick={sendEmail}>
         Send me an email!
