@@ -52,7 +52,7 @@ export const badgeImage:
   "postgre": "https://img.shields.io/badge/PostgreSQL-%23336791.svg?style=flat-square&logo=postgresql&logoColor=white",
   "express": "https://img.shields.io/badge/Express.js-%23404d59.svg?style=flat-square",
   "mongodb": "https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat-square&logo=mongodb&logoColor=white",
-  "docker": "https://img.shields.io/badge/docker-%230db7ed.svg?style=flat-square&logo=docker&logoColor=white",
+  "docker": "https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white",
   "next.js": "https://img.shields.io/badge/next.js-%23000000.svg?style=flat-square&logo=nextdotjs&logoColor=white",
   "tailwind css": "https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=flat-square&logo=tailwind-css&logoColor=white",
   "vercel": "https://img.shields.io/badge/vercel-%23000000.svg?style=flat-square&logo=vercel&logoColor=white",

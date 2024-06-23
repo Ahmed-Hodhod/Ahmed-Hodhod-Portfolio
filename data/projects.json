@@ -4,7 +4,7 @@
     "title": "Kubernetes Application Integrated with Argocd, Helm, Kustomize and Gihub Actions",
     "tagline": "This project aims to deploy a WordPress application with a MySQL database on a local Kubernetes cluster using helm and kustomize for seamless configurations.",
     "year": 2024,
-    "badges": ["Kubernetes", "github_actions", "Helm", "Kustomize", "Argocd"],
+    "badges": ["Kubernetes", "github_actions", "Helm", "Kustomize", "Argocd", "Docker"],
     "github_url": "https://github.com/Ahmed-Hodhod/ABI_GitOps_K8S",
     "demo_url": "https://www.youtube.com/watch?v=_v6lA5V4New",
     "stars": 0,
