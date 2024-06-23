@@ -53,7 +53,6 @@ export const badgeImage:
   "express": "https://img.shields.io/badge/Express.js-%23404d59.svg?style=flat-square",
   "mongodb": "https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat-square&logo=mongodb&logoColor=white",
   "docker": "https://img.shields.io/badge/docker-%230db7ed.svg?style=flat-square&logo=docker&logoColor=white",
-  "aws": "https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat-square&logo=amazon-aws&logoColor=white",
   "next.js": "https://img.shields.io/badge/next.js-%23000000.svg?style=flat-square&logo=nextdotjs&logoColor=white",
   "tailwind css": "https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=flat-square&logo=tailwind-css&logoColor=white",
   "vercel": "https://img.shields.io/badge/vercel-%23000000.svg?style=flat-square&logo=vercel&logoColor=white",
@@ -80,12 +79,14 @@ export const badgeImage:
   "markdown": "https://img.shields.io/badge/markdown-%23000000.svg?style=flat-square&logo=markdown&logoColor=white",
   "css": "https://img.shields.io/badge/CSS-239120?style=flat-square&logo=css3&logoColor=white",
   "vscode extension": "https://img.shields.io/badge/VS_Code_Extension-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white",
-  kubernetes: "https://img.shields.io/badge/kubernetes-black?style=for-the-badge&logo=kubernetes", 
+  kubernetes: "https://img.shields.io/badge/kubernetes-white?style=for-the-badge&logo=kubernetes", 
   ansible: "https://img.shields.io/badge/ansible-black?style=for-the-badge&logo=ansible", 
-  kustomize: "https://img.shields.io/badge/kustomize-black?style=for-the-badge", 
-  helm: "https://img.shields.io/badge/helm-black?style=for-the-badge&logo=helm", 
-  argocd: "https://img.shields.io/badge/argocd-black?style=for-the-badge&logo=argo", 
-  github_actions: "https://img.shields.io/badge/github--actions-black?style=for-the-badge&logo=githubactions"
+  kustomize: "https://img.shields.io/badge/kustomize-white?style=for-the-badge", 
+  helm: "https://img.shields.io/badge/helm-blue?style=for-the-badge&logo=helm", 
+  argocd: "https://img.shields.io/badge/argocd-white?style=for-the-badge&logo=argo", 
+  github_actions: "https://img.shields.io/badge/github--actions-white?style=for-the-badge&logo=githubactions",
+  aws: "https://img.shields.io/badge/AWS-%23232F3E?style=for-the-badge&logo=amazonwebservices", 
+  terraform: "https://img.shields.io/badge/terraform-white?style=for-the-badge&logo=terraform"
   
 }
 

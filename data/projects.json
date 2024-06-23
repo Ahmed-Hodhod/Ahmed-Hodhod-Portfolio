@@ -10,5 +10,16 @@
     "stars": 0,
     "priority": 0,
     "category": "DevOps"
+  },
+  {
+    "title": "Provisioning the infrastructure using Terraform",
+    "tagline":"This project automates the creation of resources on AWS and provides a fully customizable implementation for the networking, computing and database components of the infrastructure.",
+    "year": 2024,
+    "badges": ["terraform", "aws"],
+    "github_url": "https://github.com/Ahmed-Hodhod/ABI-terraform-project/",
+    "demo_url": "https://youtu.be/kYJAe-lQEQ8",
+    "stars": 0,
+    "priority": 1,
+    "category": "DevOps"
   }
 ]
