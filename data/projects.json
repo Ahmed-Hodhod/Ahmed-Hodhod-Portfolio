@@ -18,8 +18,8 @@
     "badges": ["terraform", "aws"],
     "github_url": "https://github.com/Ahmed-Hodhod/ABI-terraform-project/",
     "demo_url": "https://youtu.be/kYJAe-lQEQ8",
-    "stars": 110,
-    "priority": 1,
+    "stars": 0,
+    "priority": 110,
     "category": "DevOps"
   }, 
   {
